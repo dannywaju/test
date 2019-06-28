@@ -1,0 +1,43 @@
+html {
+    padding: 10px;
+    animation: animate 2s ease-in-out
+}
+@keyframes animate{
+    0% ,100%{background-image: url(arc wall.jpg);}
+    50%{background-image: url(chess.jpg);}
+}
+
+body {
+    padding: 10px;
+    margin: 0;
+    position: relative;
+    top:0;
+   
+
+}
+
+header {
+    font-family: serif;
+    color: white;
+    font-size: 100px;
+    font-style: bold;
+    position: fixed;
+    top: 0;
+    left: 20;
+    z-index: 1;
+    
+}
+
+nav {
+    margin: 10px;
+    position: relative;
+    top:0px;
+   
+}
+
+footer {
+    margin: 10px;
+    position:fixed;
+    top:0;
+    left:10;
+}

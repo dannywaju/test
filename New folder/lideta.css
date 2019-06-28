@@ -1,0 +1,77 @@
+CSS:
+/* <style type="text/css"> */
+body {
+text-align: center;
+background-color: burlywood;
+padding: 100px;
+padding-top: 10px;
+}
+h1 {
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+background-color:rosybrown;
+color: white;
+}
+h2 {
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+color: white;
+background-color: brown;
+}
+.svgClass {
+background-color:gray;
+float:left;
+width:70%;
+color:#fff;
+padding:10px;
+box-sizing:border-box;
+}
+polygon{
+fill:white; transition: 1s fill;
+}
+polygon:hover {
+fill:rgb(0, 255, 242);
+}
+.lideta { stroke:rgb(2, 255, 242);stroke-width: 2px;stroke-dasharray: 3; fill:rgb(82, 145, 82);
+fill-opacity: 50%;}
+.kirkos{stroke:greenyellow;stroke-width: 2px;stroke-dasharray: 3; fill:rgb(153, 147, 89);
+fill-opacity: 10%;}
+.nifas-silk{stroke:goldenrod;stroke-width: 2px;stroke-dasharray: 3; fill:
+gainsboro; fill-opacity: 50%;}.akakikaliti {stroke:olive;stroke-width: 2px;stroke-dasharray: 3; fill:gainsboro;
+fill-opacity: 10%;}
+.yeka{stroke:lawngreen;stroke-width: 2px;stroke-dasharray: 3;fill:gainsboro;
+fill-opacity: 10%;}
+.bole{stroke:green;stroke-width: 2px;stroke-dasharray: 3; fill:gainsboro; fillopacity: 10%;}
+.kolfe-keraniyo{stroke: khaki;stroke-width: 2px;stroke-dasharray: 3; fill:
+gainsboro; fill-opacity: 50%;}
+
+.arada{stroke:peru;stroke-width: 2px;stroke-dasharray: 3; fill:gainsboro; fillopacity: 50%;}
+.gulele{stroke:orange;stroke-width: 2px; stroke-dasharray: 3; fill:gainsboro;
+fill-opacity: 50%;}
+.addis-ketema{stroke:orange;stroke-width: 2px; stroke-dasharray: 3; fill:gainsboro;
+    fill-opacity: 50%;}
+.akaki-kaliti{stroke:orange;stroke-width: 2px; stroke-dasharray: 3; fill:gainsboro;
+        fill-opacity: 50%;}
+   
+.removed{
+display: none;
+}
+button{
+position: relative;
+color: white;
+font-size: 20px;
+background:gray;
+border:none;
+outline: none;
+left: 0%;
+width: 260px;
+text-align: left;
+}
+
+#sidebar{
+text-align: left;
+float:right;
+width:30%;
+background:none;
+color:#fff;
+padding:0px;
+box-sizing:border-box;
+}

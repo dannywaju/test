@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century gothic;
+
+}
+header{
+    background-image: url(contact8.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 15px;
+    margin-right: 15px;
+
+}
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration:none;
+    color:#fff;
+    padding: 5px 20px;
+    border: 1px solid #fff;
+    transition: 0.6s ease;
+}
+
+ul li a:hover{
+    background-color: #fff;
+    color:#000;
+}
+
+.logo img{
+    float: left;
+    width:500px;
+    height: auto;
+    margin-top: -50px;
+    margin-bottom: -50px;
+}
+.home img{
+    float:right;
+    width:500px;
+    height: auto;
+    margin-top: -50px;
+    margin-bottom: -50px;
+
+}
+.title{
+    position: absolute;
+    top: 30%;
+    left: 49%;
+    transform: translate(-50%,-50%);
+    animation: text 3s 100;
+}
+@keyframes text{
+    0%{
+        color: rgb(40, 165, 9);
+        
+    }
+    20%{
+        color: blue;
+    }
+    30%{
+        letter-spacing: 3px;
+        }
+    40%{
+        color:greenyellow;
+    }    
+
+}
+.button{
+    position: absolute;
+    top: 62%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+.btn{
+    text-decoration:none;
+    color:black;
+    font-family:sans serif;
+    font-style: bold;
+    padding: 5px 20px;
+    border: 1px solid #fff;
+    transition: 0.6s ease;
+   
+}
+.btn:hover{
+    background-color: #fff;
+    color:#000;
+}
+h1{
+    color:black;
+    font-size: 50px;
+}
+.search-box{
+    position: absolute;
+    top: 10%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    background: rgb(226, 226, 226);
+    opacity: 60%;
+    height: 30px;
+    border-radius: 40px;
+    padding: 10px;
+}
+.search-btn{
+    color: rgb(224, 224, 224);
+    float: right;
+    
+    height: 35px;
+    border-radius: 50%;
+    background: rgb(224, 224, 224);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-txt{
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: #fff;
+    font-size: 18px;
+    transition: 0.4s
+    line-height: 35px;
+    width:240px;
+
+}
+.quote{
+    text-align: center;
+    color: #fff;
+    font: sans-serif;
+    font-style: bold italic;
+    font-size: 30px;
+    position: absolute;
+    top:40%;
+    left:30%;
+    animation: quote 3s 100;
+    
+}
+.paragraph-1{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    right:20%;
+    color: #fff;
+}
+.img1{
+    position: absolute;
+    top:70%;
+}
+.img2{
+    position: absolute;
+    top: 70%;
+    left: 35%;
+}
+.img3{
+    position: absolute;
+    top:70%;
+    left:70%
+}
+.paragraph-2{
+    position: absolute;
+    top: 110%;
+    color: rgb(255, 255, 255);
+    background-color: gray;
+    width: 100%;
+    height:20px;
+}
+.bottom-logo{
+    position: absolute;
+    top: 100%;
+    left: 0%;
+}
